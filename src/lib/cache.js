@@ -38,7 +38,6 @@ export async function cached(key, ttlMs, loader) {
   if (hit) return hit.v;
   const value = await loader();
   if (value !== undefined) {
-    // Best effort: a value that cannot be stored is still returned (and loaded again next time).
     try {
       await remember(key, value, ttlMs);
     } catch (e) {

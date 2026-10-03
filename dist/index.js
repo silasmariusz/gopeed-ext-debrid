@@ -501,7 +501,7 @@
       if (!raw) await check(body, 200, noTrip);
       return body;
     }
-    return { call, guard, trip, fail, check, secrets, title };
+    return { call, guard, trip, fail, check };
   }
 
   // src/providers/torbox.js
@@ -1899,8 +1899,7 @@
   var warn2 = (text2) => log("warn", text2);
   function messageOf(provider, err) {
     if (err instanceof ProviderError) return err.message;
-    const reason = err && err.message !== void 0 ? String(err.message) : String(err);
-    return `${provider.title}: ${reason}`;
+    return `${provider.title}: ${textOf(err)}`;
   }
   function isMagnet(url) {
     return /^magnet:/i.test(String(url || "").trim());

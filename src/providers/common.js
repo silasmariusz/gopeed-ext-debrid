@@ -178,5 +178,5 @@ export function createApi({ id, title, base, settings, credential, authHeaders, 
     return body;
   }
 
-  return { call, guard, trip, fail, check, secrets, title };
+  return { call, guard, trip, fail, check };
 }

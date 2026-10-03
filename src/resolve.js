@@ -74,8 +74,7 @@ export const warn = (text) => log('warn', text);
 // "<Title>: <reason>". A ProviderError already reads that way; anything else gets the provider's title.
 export function messageOf(provider, err) {
   if (err instanceof ProviderError) return err.message;
-  const reason = err && err.message !== undefined ? String(err.message) : String(err);
-  return `${provider.title}: ${reason}`;
+  return `${provider.title}: ${textOf(err)}`;
 }
 
 export function isMagnet(url) {
