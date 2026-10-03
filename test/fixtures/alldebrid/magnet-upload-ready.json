@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "data": {
+    "magnets": [
+      {
+        "magnet": "magnet:?xt=urn:btih:c0ffee1234567890abcdef1234567890abcdef12&dn=Cached.Show.S01",
+        "hash": "c0ffee1234567890abcdef1234567890abcdef12",
+        "name": "Cached.Show.S01",
+        "size": 1300000000,
+        "ready": true,
+        "id": 123456
+      }
+    ]
+  }
+}

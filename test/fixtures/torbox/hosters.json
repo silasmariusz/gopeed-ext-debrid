@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "error": null,
+  "detail": "Hosters list and information retrieved successfully.",
+  "data": [
+    {
+      "id": 1,
+      "name": "Rapidgator",
+      "domains": [
+        "rapidgator.net",
+        "rg.to"
+      ],
+      "url": "https://rapidgator.net",
+      "icon": "https://torbox.app/images/hoster-icons/rapidgator.png",
+      "status": true,
+      "type": "hoster",
+      "note": null,
+      "nsfw": false,
+      "daily_link_limit": 5,
+      "daily_link_used": 0,
+      "daily_bandwidth_limit": 536870912000,
+      "daily_bandwidth_used": 0,
+      "per_link_size_limit": 107374182400,
+      "regex": "^https?://(?:[^./]+\\.)*(rapidgator\\.net|rg\\.to)(/|$)"
+    },
+    {
+      "id": 2,
+      "name": "1Fichier",
+      "domains": [
+        "1fichier.com"
+      ],
+      "url": "https://1fichier.com",
+      "icon": "https://torbox.app/images/hoster-icons/1fichier.png",
+      "status": true,
+      "type": "hoster",
+      "note": null,
+      "nsfw": false,
+      "daily_link_limit": 5,
+      "daily_link_used": 0,
+      "daily_bandwidth_limit": 536870912000,
+      "daily_bandwidth_used": 0,
+      "per_link_size_limit": 107374182400,
+      "regex": "^https?://(?:[^./]+\\.)*(1fichier\\.com)(/|$)"
+    },
+    {
+      "id": 3,
+      "name": "ClicknUpload",
+      "domains": [
+        "clicknupload.click",
+        "clicknupload.com"
+      ],
+      "url": "https://clicknupload.click",
+      "icon": "https://torbox.app/images/hoster-icons/clicknupload.png",
+      "status": false,
+      "type": "hoster",
+      "note": "Temporarily disabled.",
+      "nsfw": false,
+      "daily_link_limit": 5,
+      "daily_link_used": 0,
+      "daily_bandwidth_limit": 536870912000,
+      "daily_bandwidth_used": 0,
+      "per_link_size_limit": 107374182400,
+      "regex": "^https?://(?:[^./]+\\.)*(clicknupload\\.click|clicknupload\\.com)(/|$)"
+    }
+  ]
+}

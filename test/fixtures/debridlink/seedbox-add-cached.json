@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "value": {
+    "id": "2115ca3cf4356d24510",
+    "name": "Cached.Show.S01",
+    "created": 1790969914,
+    "hashString": "c0ffee1234567890abcdef1234567890abcdef12",
+    "uploadRatio": 0,
+    "serverId": "seed20",
+    "wait": false,
+    "peersConnected": 0,
+    "status": 100,
+    "totalSize": 1300000000,
+    "downloadPercent": 100,
+    "downloadSpeed": 0,
+    "uploadSpeed": 0,
+    "isZip": false,
+    "srvMaint": false,
+    "files": [
+      {
+        "id": "2115ca3cf4356d24510-1",
+        "name": "E01.mkv",
+        "size": 700000000,
+        "downloadUrl": "https://seed20.debrid.link/dl/fake/E01.mkv",
+        "downloadPercent": 100
+      },
+      {
+        "id": "2115ca3cf4356d24510-2",
+        "name": "E02.mkv",
+        "size": 600000000,
+        "downloadUrl": "https://seed20.debrid.link/dl/fake/E02.mkv",
+        "downloadPercent": 100
+      }
+    ],
+    "trackers": []
+  }
+}

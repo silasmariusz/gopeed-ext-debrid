@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "path": "Cached.Show.S01/E01.mkv",
+      "size": 700000000,
+      "link": "https://fake01.energycdn.com/dl/fake/E01.mkv"
+    },
+    {
+      "path": "Cached.Show.S01/E02.mkv",
+      "size": 600000000,
+      "link": "https://fake01.energycdn.com/dl/fake/E02.mkv"
+    }
+  ]
+}

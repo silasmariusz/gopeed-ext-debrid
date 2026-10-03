@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "error": null,
+  "detail": "Torrent Added Successfully",
+  "data": {
+    "hash": "c0ffee1234567890abcdef1234567890abcdef12",
+    "torrent_id": 777,
+    "auth_id": "fake-auth-id"
+  }
+}

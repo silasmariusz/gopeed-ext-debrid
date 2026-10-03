@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Rapidgator",
+    "name_simple": "rapidgator",
+    "domains": [
+      "rapidgator.net",
+      "rg.to"
+    ],
+    "sdownload": "1"
+  },
+  {
+    "name": "1fichier",
+    "name_simple": "1fichier",
+    "domains": [
+      "1fichier.com",
+      "alterupload.com"
+    ],
+    "sdownload": "0"
+  },
+  {
+    "name": "Nitroflare",
+    "name_simple": "nitroflare",
+    "domains": [
+      "nitroflare.com"
+    ],
+    "sdownload": "1"
+  },
+  {
+    "name": "Torrent",
+    "name_simple": "torrent",
+    "domains": [
+      ""
+    ],
+    "sdownload": "1"
+  },
+  {
+    "name": "FileFactory",
+    "name_simple": "filefactory",
+    "domains": [
+      "filefactory.com"
+    ],
+    "sdownload": "1"
+  }
+]

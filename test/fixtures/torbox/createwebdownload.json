@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "error": null,
+  "detail": "Web download started. Please wait for the download to complete. You will be notified when the download is complete.",
+  "data": {
+    "hash": "f00d0000000000000000000000000000",
+    "webdownload_id": 4242,
+    "auth_id": "fake-auth-id",
+    "jdownloader_id": null,
+    "link_list": []
+  }
+}

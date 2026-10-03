@@ -1,0 +1,6 @@
+{
+  "success": false,
+  "error": "PLAN_RESTRICTED_FEATURE",
+  "detail": "This feature is restricted to users of higher plans. Please upgrade your plan.",
+  "data": null
+}

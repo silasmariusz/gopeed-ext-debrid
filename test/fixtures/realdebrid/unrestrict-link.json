@@ -1,0 +1,12 @@
+{
+  "id": "RDLINK0001",
+  "filename": "Some.File.mkv",
+  "mimeType": "video/x-matroska",
+  "filesize": 734003200,
+  "link": "https://rapidgator.net/file/abc123/Some.File.mkv.html",
+  "host": "rapidgator.net",
+  "chunks": 16,
+  "crc": 1,
+  "download": "https://fake-dl.real-debrid.com/d/RDLINK0001/Some.File.mkv",
+  "streamable": 1
+}

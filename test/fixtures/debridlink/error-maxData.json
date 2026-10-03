@@ -1,0 +1,5 @@
+{
+  "success": false,
+  "error": "maxData",
+  "error_description": "Daily data limit reached."
+}

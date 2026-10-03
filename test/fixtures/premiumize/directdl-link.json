@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "path": "Some.File.mkv",
+      "size": 734003200,
+      "link": "https://fake01.energycdn.com/dl/fake/Some.File.mkv"
+    }
+  ]
+}

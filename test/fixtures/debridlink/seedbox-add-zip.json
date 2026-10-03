@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "value": {
+    "id": "2115ca3cf4356d24510",
+    "name": "Cached.Show.S01",
+    "created": 1790969914,
+    "hashString": "c0ffee1234567890abcdef1234567890abcdef12",
+    "uploadRatio": 0,
+    "serverId": "seed20",
+    "wait": false,
+    "peersConnected": 0,
+    "status": 100,
+    "totalSize": 1300000000,
+    "downloadPercent": 100,
+    "downloadSpeed": 0,
+    "uploadSpeed": 0,
+    "isZip": true,
+    "srvMaint": false,
+    "files": [
+      {
+        "id": "2115ca3cf4356d24510-zip",
+        "name": "Cached.Show.S01.zip",
+        "size": 1300000000,
+        "downloadUrl": "https://seed20.debrid.link/dl/fake/Cached.Show.S01.zip",
+        "downloadPercent": 100
+      }
+    ],
+    "trackers": []
+  }
+}

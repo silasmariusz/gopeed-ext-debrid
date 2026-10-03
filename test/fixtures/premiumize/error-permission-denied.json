@@ -1,0 +1,5 @@
+{
+  "status": "error",
+  "message": "This feature is available for premium users only.",
+  "code": "permission_denied"
+}

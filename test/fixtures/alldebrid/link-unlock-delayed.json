@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "data": {
+    "link": "https://rapidgator.net/file/abc123/Some.File.mkv.html",
+    "host": "rapidgator",
+    "filename": "Some.File.mkv",
+    "paws": false,
+    "filesize": 734003200,
+    "streams": [],
+    "id": "abcdefgh12",
+    "hostDomain": "rapidgator.net",
+    "delayed": 2457
+  }
+}

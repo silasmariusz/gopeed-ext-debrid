@@ -1,0 +1,6 @@
+{
+  "success": true,
+  "error": null,
+  "detail": "Web download requested successfully.",
+  "data": "https://store-001.weur.tb-cdn.st/dld/00000000-fake-0000-0000-000000000001?token=fake-cdn-token"
+}

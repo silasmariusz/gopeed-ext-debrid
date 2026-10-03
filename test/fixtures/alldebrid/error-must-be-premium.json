@@ -1,0 +1,7 @@
+{
+  "status": "error",
+  "error": {
+    "code": "MUST_BE_PREMIUM",
+    "message": "You must be premium to process this link"
+  }
+}

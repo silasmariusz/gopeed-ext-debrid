@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "error": null,
+  "detail": "web downloads list retrieved successfully.",
+  "data": {
+    "id": 4242,
+    "created_at": "2026-10-02T18:00:00Z",
+    "updated_at": "2026-10-02T18:00:05Z",
+    "auth_id": "fake-auth-id",
+    "name": "Some.File.mkv",
+    "hash": "f00d0000000000000000000000000000",
+    "download_state": "completed",
+    "download_speed": 0,
+    "original_url": "https://rapidgator.net/file/abc123/Some.File.mkv.html",
+    "eta": 0,
+    "progress": 1,
+    "size": 734003200,
+    "download_id": "fake-download-id",
+    "files": [
+      {
+        "id": 0,
+        "md5": null,
+        "hash": "f00d",
+        "name": "Some.File.mkv",
+        "size": 734003200,
+        "zipped": false,
+        "s3_path": "fake/Some.File.mkv",
+        "infected": false,
+        "mimetype": "application/octet-stream",
+        "short_name": "Some.File.mkv",
+        "absolute_path": "/fake/Some.File.mkv",
+        "opensubtitles_hash": null
+      }
+    ],
+    "active": false,
+    "cached": true,
+    "download_present": true,
+    "download_finished": true,
+    "expires_at": "2026-11-01T18:00:00Z",
+    "error": null,
+    "cached_at": "2026-10-02T18:00:05Z",
+    "server": 1
+  }
+}

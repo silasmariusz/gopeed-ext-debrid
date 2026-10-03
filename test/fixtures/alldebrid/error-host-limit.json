@@ -1,0 +1,7 @@
+{
+  "status": "error",
+  "error": {
+    "code": "LINK_HOST_LIMIT_REACHED",
+    "message": "You have reached the download limit for this host"
+  }
+}

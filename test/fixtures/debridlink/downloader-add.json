@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "value": {
+    "created": 1790969914,
+    "id": "ab034778198a045c1ed80be271cdd029b76874f6fc",
+    "name": "Some.File.mkv",
+    "url": "https://rapidgator.net/file/abc123/Some.File.mkv.html",
+    "downloadUrl": "https://dl6.debrid.link/dl/fake/Some.File.mkv",
+    "expired": false,
+    "chunk": 8,
+    "host": "rapidgator",
+    "size": 734003200
+  }
+}

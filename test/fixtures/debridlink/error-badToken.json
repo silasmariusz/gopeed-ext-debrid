@@ -1,0 +1,5 @@
+{
+  "success": false,
+  "error": "badToken",
+  "error_description": "This request require authentification, please log in."
+}

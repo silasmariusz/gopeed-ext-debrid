@@ -1,0 +1,5 @@
+{
+  "success": false,
+  "error": "notFreeHost",
+  "error_description": "This host is not available for free users."
+}

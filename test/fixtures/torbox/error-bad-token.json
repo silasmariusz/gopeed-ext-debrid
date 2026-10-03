@@ -1,0 +1,6 @@
+{
+  "success": false,
+  "error": "BAD_TOKEN",
+  "detail": "Invalid token format. Please provide a valid token. Format: 'Bearer <token>'.",
+  "data": null
+}

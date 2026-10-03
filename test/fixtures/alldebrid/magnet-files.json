@@ -1,0 +1,32 @@
+{
+  "status": "success",
+  "data": {
+    "magnets": [
+      {
+        "id": "123456",
+        "files": [
+          {
+            "n": "Cached.Show.S01",
+            "e": [
+              {
+                "n": "E01.mkv",
+                "s": 700000000,
+                "l": "https://alldebrid.com/f/FAKEFILE01"
+              },
+              {
+                "n": "Extras",
+                "e": [
+                  {
+                    "n": "E02.mkv",
+                    "s": 600000000,
+                    "l": "https://alldebrid.com/f/FAKEFILE02"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

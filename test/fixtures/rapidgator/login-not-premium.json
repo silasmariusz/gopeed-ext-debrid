@@ -1,0 +1,16 @@
+{
+  "response": {
+    "token": "FAKE-RG-TOKEN-0004",
+    "user": {
+      "email": "fake.user@example.invalid",
+      "is_premium": false,
+      "premium_end_time": 1893456000,
+      "traffic": {
+        "total": "1099511627776",
+        "left": "549755813888"
+      }
+    }
+  },
+  "status": 200,
+  "details": null
+}

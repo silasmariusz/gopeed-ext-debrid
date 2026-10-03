@@ -1,0 +1,5 @@
+{
+  "status": "error",
+  "message": "Fair use limit reached.",
+  "code": "account_limit_reached"
+}

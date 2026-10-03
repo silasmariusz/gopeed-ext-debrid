@@ -1,0 +1,246 @@
+{
+  "name": "debrid",
+  "author": "silasmariusz",
+  "title": "Debrid & premium hosts",
+  "description": "Hoster links and cached magnets become direct downloads through your debrid, multihoster or premium accounts.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/silasmariusz/gopeed-ext-debrid",
+  "repository": {
+    "url": "https://github.com/silasmariusz/gopeed-ext-debrid"
+  },
+  "scripts": [
+    {
+      "event": "onResolve",
+      "match": {
+        "urls": [
+          "*://*/*",
+          "magnet:*"
+        ],
+        "labels": [
+          "rt16.debrid"
+        ]
+      },
+      "entry": "dist/index.js"
+    },
+    {
+      "event": "onStart",
+      "match": {
+        "urls": [
+          "*://*/*"
+        ]
+      },
+      "entry": "dist/index.js"
+    },
+    {
+      "event": "onError",
+      "match": {
+        "urls": [
+          "*://*/*"
+        ]
+      },
+      "entry": "dist/index.js"
+    }
+  ],
+  "settings": [
+    {
+      "name": "order",
+      "title": "Provider order",
+      "type": "string",
+      "value": "torbox,alldebrid,premiumize,realdebrid,debridlink,rapideo,nopremium,twojlimit,onefichier,rapidgator,nitroflare",
+      "description": "Provider ids, separated by commas. The extension asks the enabled providers in this order for each link. The ids: torbox, alldebrid, premiumize, realdebrid, debridlink, rapideo, nopremium, twojlimit, onefichier, rapidgator, nitroflare."
+    },
+    {
+      "name": "magnets_via_debrid",
+      "title": "Magnets through debrid when cached",
+      "type": "boolean",
+      "value": true,
+      "description": "Ask the enabled debrid services for a magnet's files when they already have the torrent cached. Off: magnets never go to them."
+    },
+    {
+      "name": "torbox_enabled",
+      "title": "Use TorBox",
+      "type": "boolean",
+      "value": false,
+      "description": "Hoster links and cached magnets go through your TorBox account."
+    },
+    {
+      "name": "torbox_apikey",
+      "title": "TorBox API key",
+      "type": "string",
+      "description": "The API key from your TorBox account settings."
+    },
+    {
+      "name": "alldebrid_enabled",
+      "title": "Use AllDebrid",
+      "type": "boolean",
+      "value": false,
+      "description": "Hoster links and cached magnets go through your AllDebrid account."
+    },
+    {
+      "name": "alldebrid_apikey",
+      "title": "AllDebrid API key",
+      "type": "string",
+      "description": "An API key from your AllDebrid account."
+    },
+    {
+      "name": "premiumize_enabled",
+      "title": "Use Premiumize",
+      "type": "boolean",
+      "value": false,
+      "description": "Hoster links and cached magnets go through your Premiumize account."
+    },
+    {
+      "name": "premiumize_apikey",
+      "title": "Premiumize API key",
+      "type": "string",
+      "description": "The API key from your Premiumize account page."
+    },
+    {
+      "name": "realdebrid_enabled",
+      "title": "Use Real-Debrid",
+      "type": "boolean",
+      "value": false,
+      "description": "Hoster links and cached magnets go through your Real-Debrid account."
+    },
+    {
+      "name": "realdebrid_token",
+      "title": "Real-Debrid private API token",
+      "type": "string",
+      "description": "The private API token from your Real-Debrid account."
+    },
+    {
+      "name": "debridlink_enabled",
+      "title": "Use Debrid-Link",
+      "type": "boolean",
+      "value": false,
+      "description": "Hoster links and cached magnets go through your Debrid-Link account."
+    },
+    {
+      "name": "debridlink_apikey",
+      "title": "Debrid-Link API key",
+      "type": "string",
+      "description": "The API key from your Debrid-Link account."
+    },
+    {
+      "name": "rapideo_enabled",
+      "title": "Use Rapideo",
+      "type": "boolean",
+      "value": false,
+      "description": "Hoster links go through your Rapideo account."
+    },
+    {
+      "name": "rapideo_login",
+      "title": "Rapideo login",
+      "type": "string",
+      "description": "The login of your Rapideo account."
+    },
+    {
+      "name": "rapideo_password",
+      "title": "Rapideo password",
+      "type": "string",
+      "description": "The password of your Rapideo account."
+    },
+    {
+      "name": "nopremium_enabled",
+      "title": "Use NoPremium",
+      "type": "boolean",
+      "value": false,
+      "description": "Hoster links go through your NoPremium account."
+    },
+    {
+      "name": "nopremium_login",
+      "title": "NoPremium login",
+      "type": "string",
+      "description": "The login of your NoPremium account."
+    },
+    {
+      "name": "nopremium_password",
+      "title": "NoPremium password",
+      "type": "string",
+      "description": "The password of your NoPremium account."
+    },
+    {
+      "name": "twojlimit_enabled",
+      "title": "Use Twojlimit",
+      "type": "boolean",
+      "value": false,
+      "description": "Hoster links go through your Twojlimit account."
+    },
+    {
+      "name": "twojlimit_login",
+      "title": "Twojlimit login",
+      "type": "string",
+      "description": "The login of your Twojlimit account."
+    },
+    {
+      "name": "twojlimit_password",
+      "title": "Twojlimit password",
+      "type": "string",
+      "description": "The password of your Twojlimit account."
+    },
+    {
+      "name": "onefichier_enabled",
+      "title": "Use 1fichier",
+      "type": "boolean",
+      "value": false,
+      "description": "1fichier links download with your 1fichier premium account."
+    },
+    {
+      "name": "onefichier_apikey",
+      "title": "1fichier API key",
+      "type": "string",
+      "description": "The API key from your 1fichier premium account."
+    },
+    {
+      "name": "rapidgator_enabled",
+      "title": "Use Rapidgator",
+      "type": "boolean",
+      "value": false,
+      "description": "Rapidgator links download with your Rapidgator premium account."
+    },
+    {
+      "name": "rapidgator_login",
+      "title": "Rapidgator login",
+      "type": "string",
+      "description": "The email address you log in to Rapidgator with."
+    },
+    {
+      "name": "rapidgator_password",
+      "title": "Rapidgator password",
+      "type": "string",
+      "description": "The password of your Rapidgator account."
+    },
+    {
+      "name": "rapidgator_2fa_secret",
+      "title": "Rapidgator 2FA secret",
+      "type": "string",
+      "description": "optional: the base32 secret of your Rapidgator two-factor app"
+    },
+    {
+      "name": "nitroflare_enabled",
+      "title": "Use Nitroflare",
+      "type": "boolean",
+      "value": false,
+      "description": "Nitroflare links download with your Nitroflare premium account."
+    },
+    {
+      "name": "nitroflare_user",
+      "title": "Nitroflare user",
+      "type": "string",
+      "description": "The email address of your Nitroflare account."
+    },
+    {
+      "name": "nitroflare_premium_key",
+      "title": "Nitroflare premium key",
+      "type": "string",
+      "description": "The premium key of your Nitroflare account."
+    },
+    {
+      "name": "advanced_api_base",
+      "title": "Advanced: API base URL",
+      "type": "string",
+      "value": "",
+      "description": "For testing only: send every provider's requests to this base URL."
+    }
+  ]
+}

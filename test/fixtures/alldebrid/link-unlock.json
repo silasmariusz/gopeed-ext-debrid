@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "data": {
+    "link": "https://ombfyx.debrid.it/dl/abcdefgh12/Some.File.mkv",
+    "host": "rapidgator",
+    "filename": "Some.File.mkv",
+    "paws": false,
+    "filesize": 734003200,
+    "streams": [],
+    "id": "abcdefgh12",
+    "hostDomain": "rapidgator.net"
+  }
+}

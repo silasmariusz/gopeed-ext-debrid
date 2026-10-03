@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "value": [
+    {
+      "name": "rapidgator",
+      "type": "host",
+      "status": 1,
+      "isFree": false,
+      "domains": [
+        "rapidgator.net",
+        "rg.to"
+      ],
+      "regexs": [
+        "(https?:\\/\\/)?(www\\.)?(rapidgator\\.net|rg\\.to)\\/file\\/.+"
+      ]
+    },
+    {
+      "name": "1fichier",
+      "type": "host",
+      "status": 1,
+      "isFree": true,
+      "domains": [
+        "1fichier.com",
+        "alterupload.com"
+      ],
+      "regexs": [
+        "(https?:\\/\\/)?([a-z0-9]+\\.)?1fichier\\.com\\/\\?.+"
+      ]
+    },
+    {
+      "name": "uploaded",
+      "type": "host",
+      "status": 0,
+      "isFree": true,
+      "domains": [
+        "uploaded.net",
+        "uploaded.to",
+        "ul.to"
+      ],
+      "regexs": []
+    }
+  ]
+}

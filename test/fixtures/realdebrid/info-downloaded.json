@@ -1,0 +1,32 @@
+{
+  "id": "RDTORRENT01",
+  "filename": "Cached.Show.S01",
+  "original_filename": "Cached.Show.S01",
+  "hash": "c0ffee1234567890abcdef1234567890abcdef12",
+  "bytes": 1300000000,
+  "original_bytes": 1300000000,
+  "host": "real-debrid.com",
+  "split": 2000,
+  "progress": 100,
+  "status": "downloaded",
+  "added": "2026-10-02T18:00:00.000Z",
+  "files": [
+    {
+      "id": 1,
+      "path": "/Cached.Show.S01/E01.mkv",
+      "bytes": 700000000,
+      "selected": 1
+    },
+    {
+      "id": 2,
+      "path": "/Cached.Show.S01/E02.mkv",
+      "bytes": 600000000,
+      "selected": 1
+    }
+  ],
+  "links": [
+    "https://real-debrid.com/d/FAKELINK0001",
+    "https://real-debrid.com/d/FAKELINK0002"
+  ],
+  "ended": "2026-10-02T18:00:01.000Z"
+}

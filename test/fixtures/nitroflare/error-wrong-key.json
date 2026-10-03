@@ -1,0 +1,5 @@
+{
+  "type": "error",
+  "code": 1,
+  "message": "Wrong login (fake fixture text)"
+}

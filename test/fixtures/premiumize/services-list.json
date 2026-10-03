@@ -1,0 +1,53 @@
+{
+  "status": "success",
+  "cache": [
+    "rapidgator.net",
+    "1fichier.com",
+    "turbobit.net"
+  ],
+  "directdl": [
+    "1fichier.com",
+    "turbobit.net",
+    "mediafire.com"
+  ],
+  "queue": [
+    "rapidgator.net",
+    "1fichier.com",
+    "turbobit.net",
+    "mediafire.com"
+  ],
+  "fairusefactor": {
+    "1fichier.com": 1,
+    "turbobit.net": 1,
+    "mediafire.com": 1,
+    "rapidgator.net": 1
+  },
+  "aliases": {
+    "rapidgator.net": [
+      "rg.to",
+      "rapidgator.net",
+      "rapidgator.host"
+    ],
+    "1fichier.com": [
+      "1fichier.com",
+      "alterupload.com",
+      "cjoint.net"
+    ],
+    "turbobit.net": [
+      "turbo-bit.net",
+      "turbobit.net",
+      "turbo.to"
+    ],
+    "mediafire.com": [
+      "mediafire.com"
+    ]
+  },
+  "regexpatterns": {
+    "1fichier.com": [
+      "^https?://(?:www\\.)?1fichier\\.com/.*$"
+    ],
+    "turbobit.net": [
+      "^https?://(?:www\\.)?turbobit\\.net/.*$"
+    ]
+  }
+}

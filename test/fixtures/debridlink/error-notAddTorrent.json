@@ -1,0 +1,5 @@
+{
+  "success": false,
+  "error": "notAddTorrent",
+  "error_description": "The torrent could not be added."
+}

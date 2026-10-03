@@ -1,0 +1,53 @@
+{
+  "status": "success",
+  "data": {
+    "hosts": {
+      "rapidgator": {
+        "name": "rapidgator",
+        "type": "premium",
+        "domains": [
+          "rapidgator.net",
+          "rg.to"
+        ],
+        "regexp": "https?://(?:www\\.)?(?:rapidgator\\.net|rg\\.to)/file/([0-9a-z]+)",
+        "status": true,
+        "quota": 0,
+        "quotaMax": 5368709120,
+        "quotaType": "traffic",
+        "limitSimuDl": 0
+      },
+      "1fichier": {
+        "name": "1fichier",
+        "type": "premium",
+        "domains": [
+          "1fichier.com",
+          "alterupload.com"
+        ],
+        "regexps": [
+          "https?://(?:www\\.)?1fichier\\.com/\\?([0-9a-z]+)"
+        ],
+        "status": true
+      },
+      "mega": {
+        "name": "mega",
+        "type": "premium",
+        "domains": [
+          "mega.nz",
+          "mega.co.nz"
+        ],
+        "regexp": "mega(\\.co)?\\.nz/([0-9a-zA-Z_]{20,36})",
+        "status": true
+      },
+      "uploaded": {
+        "name": "uploaded",
+        "type": "premium",
+        "domains": [
+          "uploaded.net",
+          "ul.to"
+        ],
+        "regexp": "uploaded\\.net/file/([0-9a-z]+)",
+        "status": false
+      }
+    }
+  }
+}

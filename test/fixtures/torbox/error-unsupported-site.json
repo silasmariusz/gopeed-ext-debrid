@@ -1,0 +1,6 @@
+{
+  "success": false,
+  "error": "UNSUPPORTED_SITE",
+  "detail": "The site you are trying to download from is not supported.",
+  "data": null
+}

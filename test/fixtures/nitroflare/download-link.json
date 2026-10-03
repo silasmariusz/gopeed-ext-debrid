@@ -1,0 +1,8 @@
+{
+  "type": "success",
+  "result": {
+    "name": "Some.File.rar",
+    "size": "314572800",
+    "url": "https://s12.nitroflare.example.invalid/d/fake/Some.File.rar"
+  }
+}

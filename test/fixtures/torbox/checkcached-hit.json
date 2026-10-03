@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "error": null,
+  "detail": "Torrent cache status retrieved successfully.",
+  "data": [
+    {
+      "name": "Cached.Show.S01",
+      "size": 1300000000,
+      "hash": "c0ffee1234567890abcdef1234567890abcdef12",
+      "files": [
+        {
+          "id": 0,
+          "name": "Cached.Show.S01/E01.mkv",
+          "size": 700000000,
+          "opensubtitles_hash": null,
+          "short_name": "E01.mkv",
+          "mimetype": "video/x-matroska"
+        },
+        {
+          "id": 1,
+          "name": "Cached.Show.S01/E02.mkv",
+          "size": 600000000,
+          "opensubtitles_hash": null,
+          "short_name": "E02.mkv",
+          "mimetype": "video/x-matroska"
+        }
+      ]
+    }
+  ]
+}
